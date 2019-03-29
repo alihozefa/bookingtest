@@ -40,6 +40,6 @@ public class FindNSWLocationPage extends Page{
                 }
             }
         }
-        Assert.assertTrue(matchFound,desiredLcation + ", is not found!!");
+        Assert.assertTrue(matchFound,desiredLcation + ", is not found!");
     }
 }
