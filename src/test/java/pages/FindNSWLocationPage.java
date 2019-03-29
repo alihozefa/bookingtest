@@ -28,7 +28,6 @@ public class FindNSWLocationPage extends Page{
         return driver.findElements(By.cssSelector("a.location__title"));
     }
 
-    //verify expected service centre is there
     public void verifyDesiredLocationDisplayed(String desiredLcation){
         List<WebElement> links = new ArrayList<WebElement>();
         links = getServiceLocations();
